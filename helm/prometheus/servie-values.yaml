@@ -433,7 +433,7 @@ server:
     ## Ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
     ##
     accessModes:
-      - ReadWriteOnce
+      - ReadWriteMany
 
     ## Prometheus server data Persistent Volume labels
     ##
